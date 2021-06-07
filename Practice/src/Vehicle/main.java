@@ -17,6 +17,11 @@ public class main {
         benz = Bus.fuelneeded(distance);
         System.out.println("Дальность поездки автобуса на полном баке = " + Bus.range() + " км");
         System.out.println("Чтобы проехать " + distance + " км " + "автобусу потребуется " + benz + " литров бенза!");
+        System.out.println();
 
+        benz = Corolla.fuelneeded(distance);
+        System.out.println("Дальность поездки короллы на полном баке = " + Corolla.range() + " км");
+        System.out.println("Чтобы проехать " + distance + " км " + "королле потребуется " + benz + " литров бенза!");
+        System.out.println();
     }
 }

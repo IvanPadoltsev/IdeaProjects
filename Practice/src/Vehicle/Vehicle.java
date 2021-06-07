@@ -15,12 +15,15 @@ public class Vehicle {
 
 // Определение дальности поездки на полном баке
         double range () {
-        return fueltank * (100 / fuelconsumption);
+                return fueltank * (100 / fuelconsumption);
         }
 
 // Расчет объема топлива, необходимого транспортному
 // средству для преодоления заданного расстояния
         double fuelneeded(int kilometers) {
-        return (double) kilometers / (100 / fuelconsumption);
+                return (double) kilometers / (100 / fuelconsumption);
         }
+
+
+
 }
