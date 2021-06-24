@@ -7,7 +7,7 @@ public class Variables {
     public static void main(String[] args) {
 
         int  a = 10;
-        int b = 4;
+        int b = 8;
 
         System.out.println(a);
         for (int i = 1; i <= b; i++) {
